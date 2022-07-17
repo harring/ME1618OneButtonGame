@@ -1,0 +1,629 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1658057942988084, "dur": 495787, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057942989755, "dur": 52069, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057943042278, "dur": 431059, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057943473402, "dur": 10468, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057958941360, "dur": 1645419, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057958941573, "dur": 14689, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057958956264, "dur": 46933, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057959003226, "dur": 1066338, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057960069565, "dur": 509306, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057960578872, "dur": 7907, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057960587110, "dur": 25, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1658057959863309, "dur": 190086, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658057959864162, "dur": 62960, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658057960038004, "dur": 3809, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658057960041816, "dur": 11575, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658057960042411, "dur": 10590, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658057960057576, "dur": 1282, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658057960056714, "dur": 2163, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057960587185, "dur": 123, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1658057960105027, "dur":1068, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960106100, "dur":129, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1658057960106270, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1658057960106299, "dur":649, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1658057960106975, "dur":491, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960107466, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541137, "dur":187, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541324, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541340, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541342, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541351, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541353, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541361, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541363, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541372, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541374, "dur":87, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541461, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541464, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541474, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541476, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541487, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541490, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541497, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541499, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541508, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541510, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541518, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541521, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541528, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541531, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541539, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541550, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960541576, "dur":2208, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1658057960107108, "dur":399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960107509, "dur":1592, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960109113, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658057960109114, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960109220, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658057960109224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960117995, "dur":5528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658057960123524, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1658057960123551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960123558, "dur":146332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1658057960269908, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960269969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960269979, "dur":31008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960301006, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960301031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960301040, "dur":55227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960356281, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960356295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960356301, "dur":49974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960406290, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960406305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960406311, "dur":4763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960411091, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960411105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960411114, "dur":11647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960422775, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960422878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960422885, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960426291, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960426471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960426478, "dur":9480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960435972, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960436039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960436045, "dur":4317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960440376, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960440445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960440452, "dur":10428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960450895, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960450913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960450920, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960452957, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960452975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960452983, "dur":44362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960497361, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960497380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960497404, "dur":11675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658057960509091, "dur":8324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1658057960517419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658057960517426, "dur":11543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1658057960528984, "dur":12150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658057960107213, "dur":341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658057960107555, "dur":1564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658057960109119, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1658057960109216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658057960113789, "dur":9052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1658057960122857, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1658057960122883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658057960122891, "dur":138066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1658057960260975, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1658057960260997, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658057960261018, "dur":175617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1658057960436653, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658057960436727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658057960436733, "dur":5647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658057960442394, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658057960442473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658057960442481, "dur":9342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658057960451838, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658057960451855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658057960451862, "dur":79124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658057960531000, "dur":10137, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960107321, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960107588, "dur":1557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960109145, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1658057960109481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960112800, "dur":10550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1658057960123364, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1658057960123393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960123401, "dur":137786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1658057960261201, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960261216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960261565, "dur":18778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960280358, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960280377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960280386, "dur":20735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960301134, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960301148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960301154, "dur":134799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960435969, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960436070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960436077, "dur":4758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960440872, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960441026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960441033, "dur":49862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960490911, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960490925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960490932, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960493025, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960493039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960493045, "dur":4667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960497728, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960497748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960497755, "dur":10089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658057960507858, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658057960507871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960507877, "dur":12868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658057960520763, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1658057960520778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658057960520785, "dur":8175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1658057960528973, "dur":12161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960107428, "dur":199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960107627, "dur":1516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960109143, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1658057960109367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960112727, "dur":12114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1658057960124857, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960124887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960125454, "dur":141841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960267313, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960267334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960267342, "dur":18961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960286318, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960286333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960286342, "dur":22438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960308797, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960308816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960308824, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960309558, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960309578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960309585, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960310324, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960310337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960310344, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960312063, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960312333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960312341, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960313362, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960313377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960313384, "dur":18624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960332025, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960332045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960332054, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960332929, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960332943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960332950, "dur":23114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960356079, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960356093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960356101, "dur":4766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960360904, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960360930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960360937, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960361871, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960361884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960361891, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960362905, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960362921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960362928, "dur":18008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960380955, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960380969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960380978, "dur":57616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960438607, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960438741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960438747, "dur":9207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960447968, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960448042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960448050, "dur":43885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960491949, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960491963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960491970, "dur":3964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960495946, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960495961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960495967, "dur":5110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960501090, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960501214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960501221, "dur":7368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658057960508602, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1658057960508678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960508684, "dur":19826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1658057960528526, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1658057960528604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658057960528611, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1658057960530036, "dur":11099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960107548, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960107549, "dur":1556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960109113, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1658057960109186, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960112868, "dur":8611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1658057960121496, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1658057960121524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960122427, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1658057960125256, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960125282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960125616, "dur":196629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960322259, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960322273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960322279, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960323787, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960323803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960323811, "dur":23107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960346935, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960346951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960346960, "dur":8028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960355005, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960355034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960355043, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960357557, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960357576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960357585, "dur":27504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960385104, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960385117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960385123, "dur":40429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960425571, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960426081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960426088, "dur":9336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960435440, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960435518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960435527, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960438488, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960438563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960438572, "dur":10219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960448804, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960449491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960449498, "dur":34787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960484303, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960484318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960484326, "dur":8360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960492700, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960492713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960492720, "dur":4428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960497163, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960497177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960497185, "dur":3499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960500701, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960500720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960500729, "dur":6206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658057960506949, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1658057960506962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960506983, "dur":6776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1658057960513771, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1658057960513784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960513789, "dur":7117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1658057960520925, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658057960520940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658057960520946, "dur":10407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1658057960531366, "dur":9787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658057960107714, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658057960107714, "dur":1392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658057960109113, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1658057960109258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658057960117972, "dur":7653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1658057960125638, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960125667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658057960125672, "dur":214671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960340360, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960340379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658057960340387, "dur":18702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960359105, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960359125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658057960359149, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960360385, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960360399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658057960360408, "dur":24655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960385079, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960385093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658057960385102, "dur":26473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960411588, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960411602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658057960411609, "dur":126737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658057960538370, "dur":2777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960107817, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960107817, "dur":1287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960109113, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1658057960109210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960112105, "dur":148944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1658057960261067, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1658057960261102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960261563, "dur":56869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1658057960318448, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960318470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960318478, "dur":18651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960337146, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960337175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960337185, "dur":37092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960374296, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960374316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960374324, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960375242, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960375262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960375269, "dur":16903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960392185, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960392200, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960392207, "dur":27002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960419228, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960419244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960419253, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960423256, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960423575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960423583, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960425711, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960425726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960425734, "dur":8260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960434011, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960434413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960434422, "dur":3609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960438049, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960438172, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960438205, "dur":4159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960442383, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960442919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960442926, "dur":48833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960491774, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960491792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960491800, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960494078, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960494093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960494101, "dur":5050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960499168, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960499183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960499191, "dur":4673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658057960503877, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1658057960503891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960503931, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1658057960504936, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1658057960504950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960504957, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1658057960505681, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1658057960505694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960505701, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1658057960507445, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658057960507458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960507464, "dur":9244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1658057960516727, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1658057960516740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658057960516746, "dur":12093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1658057960528853, "dur":12279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960107900, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960107901, "dur":1242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960109144, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1658057960109478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960112786, "dur":11739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1658057960124540, "dur":704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1658057960125247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960125254, "dur":135714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1658057960260983, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game.exe" }}
+,{ "pid":12345, "tid":8, "ts":1658057960261012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960261018, "dur":29806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game.exe" }}
+,{ "pid":12345, "tid":8, "ts":1658057960290841, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960290859, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960290867, "dur":118604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960409490, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960409508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960409519, "dur":38897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960448430, "dur":1420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960449854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960449862, "dur":11592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960461477, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960461594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960461602, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960462350, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960462520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960462529, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960463335, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960463431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960463438, "dur":8840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960472294, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960472381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960472404, "dur":4565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960476984, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960477100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960477108, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960477883, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960477904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960477911, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960482054, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960482071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960482079, "dur":6278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960488376, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960488390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960488398, "dur":4229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960492642, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960492663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960492672, "dur":3597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960496285, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960496298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960496304, "dur":7196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658057960503514, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1658057960503594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960504682, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1658057960506387, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658057960506401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960506407, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658057960509845, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658057960509859, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658057960509866, "dur":24957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1658057960534842, "dur":6314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960107977, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960107978, "dur":1167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960109145, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1658057960109502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960112776, "dur":167949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1658057960280745, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960280768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960280775, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960281661, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960281680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960281688, "dur":20489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960302191, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960302209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960302217, "dur":18933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960321169, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960321185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960321196, "dur":114918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960436129, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960436300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960436307, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960439870, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960439947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960439955, "dur":36329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960476299, "dur":2898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960479202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960479211, "dur":13275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960492501, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960492517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960492525, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960495853, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960495873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960495881, "dur":7115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960503022, "dur":12998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960516025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960518967, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658057960521209, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1658057960521221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658057960521226, "dur":8773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1658057960530011, "dur":11128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960108002, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960108003, "dur":1139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960109142, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1658057960109185, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960113110, "dur":8773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1658057960121899, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1658057960121925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960122497, "dur":138566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1658057960261077, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960261099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960261548, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960263486, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960263503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960263512, "dur":102556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960366085, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960366105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960366114, "dur":25714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960391843, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960391858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960391866, "dur":17637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960409516, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960409531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960409537, "dur":29367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960438920, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960438993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960438999, "dur":11184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960450199, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960450275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960450285, "dur":9260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960459562, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960459579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658057960459588, "dur":71298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658057960530901, "dur":10240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960108055, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960108056, "dur":1063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960109120, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1658057960109186, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960112693, "dur":149940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1658057960262652, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960262676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960262695, "dur":33274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960295986, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960296006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960296015, "dur":18225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960314253, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960314281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960314288, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960315743, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960315758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960315766, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960316684, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960316698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960316705, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960318613, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960318627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960318648, "dur":71238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960389907, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960389941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960389949, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960392044, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960392056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960392062, "dur":13947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960406027, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960406041, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960406066, "dur":31949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960438029, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960438146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960438153, "dur":10106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960448273, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960448717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960448724, "dur":39905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960488643, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960488656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960488663, "dur":3522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960492198, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960492342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960492363, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960495978, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960495994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960496002, "dur":10706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658057960506724, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1658057960506737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960506743, "dur":6885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1658057960513644, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1658057960513657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960513665, "dur":13296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1658057960526975, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1658057960526988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658057960526997, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1658057960529848, "dur":11289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960108116, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960108116, "dur":991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960109113, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1658057960109218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960113862, "dur":10666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1658057960124540, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1658057960124570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960124578, "dur":137006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1658057960261599, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960261620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960261671, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960262657, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960262677, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960262685, "dur":35033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960297733, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960297747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960297756, "dur":18614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960316384, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960316398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960316406, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960318720, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960318733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960318739, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960321958, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960321971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960321978, "dur":33200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960355191, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960355209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960355215, "dur":43257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960398489, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960398508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960398518, "dur":23997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960422533, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960422553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960422563, "dur":28437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960451013, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960451322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960451328, "dur":8646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960459987, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960460005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658057960460012, "dur":81082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/harri/OneDrive/Skrivbord/One Button Game Erik Harring/One Button game_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658057960541109, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1658057960541111, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658057960545000, "dur":2428, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1658057960587352, "dur": 793, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658057960587098, "dur": 1070, "ph": "X", "name": "Write chrome-trace events", "args": {} },
